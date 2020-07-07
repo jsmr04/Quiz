@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Spanish Quiz - Score</title>
+    <link rel="shortcut icon" href="images/icon.png">
+
+    <!--css style-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/forms.css">
+
+    <!--Font-awesome script file-->
+    <script defer src="js/font-awesome/all.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A language quiz.">
+    <meta name="keywords" content="language, spanish, quiz">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-storage.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBYg2wB-2ZQxrQlPwnfP2Im-t1rBSbWInQ",
+            authDomain: "language-quiz-456c3.firebaseapp.com",
+            databaseURL: "https://language-quiz-456c3.firebaseio.com",
+            projectId: "language-quiz-456c3",
+            storageBucket: "language-quiz-456c3.appspot.com",
+            messagingSenderId: "698978242809",
+            appId: "1:698978242809:web:6279673b7b114cd2241228",
+            measurementId: "G-TWKP6784M3"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body>
+    <div id="menu" class="menu-navigation"></div>
+
+    <div class="body-box">
+        <header>
+            <h2>Score </h2>
+        </header>
+        <table id="score" class="table-layout">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="scoreBody">
+            </tbody>
+        </table>
+    </div>
+    <footer class="footer-out">
+        <p>&copy; 2020 A&J languages.</p>
+    </footer>
+
+    <!-- Score js file configuration-->
+    <script type="text/javascript" src="js/score.js"></script>
+    <!-- Menu js file configuration-->
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>

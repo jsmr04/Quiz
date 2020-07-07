@@ -1,0 +1,226 @@
+
+html {
+    background-color: #1b262c;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body,
+html {
+    font-family: Raleway-SemiBold, sans-serif;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+header h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about_content{
+    margin:5px;
+}
+
+.about_title{
+    margin:5px;
+    padding: 1px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #0f4c75e1;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.home-button {
+    cursor: pointer;
+    background-color: #f3f5f4;
+    color: #0f4c75e1;
+    font-size: 120%;
+}
+
+.home-button:hover {
+    cursor: pointer;
+    color: #f3f5f4;
+}
+
+.error-message{
+    color: red ;
+}
+
+
+/**Desktop Query*/
+@media only screen and (min-width: 768px) {
+    .body-box {
+        font-size: 100%;
+        background-color: #f3f5f4;
+        margin: 2em auto;
+        border-radius: 5px;
+        width: 700px;
+        height: auto;
+        padding: 25px 20px 30px 20px;
+    }
+
+    .button {
+        display: inline-block;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        border-style: groove;
+        color: #f3f5f4;
+        border-color: #0f4c75;
+        background-color: #0f4c75;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer-out {
+        text-align: right;
+        width: 900px;
+        color: #f3f5f4;
+        margin: 0 auto;
+    }
+
+    .back-blue {
+        margin: 0em auto;
+        width: 700px;
+        height: auto;
+    }
+}
+
+/*Tablet Query*/
+@media only screen and (min-width: 481px) and (max-width:825px) {
+    body,
+    html {
+        height: 100%;
+    }
+
+    .body-box {
+        font-size: 100%;
+        background-color: #f3f5f4;
+        width: 85%;
+        height: 85%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 20px 5% 20px 5%;
+    }
+
+    .button {
+        display: inline-block;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        border-style: groove;
+        color: #f3f5f4;
+        border-color: #0f4c75;
+        background-color: #0f4c75;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer-out {
+        text-align: right;
+        width: 100%;
+        color: #f3f5f4;
+        margin-top: 10px;
+    }
+
+    .back-blue {
+        margin: 0em auto;
+        width: 90%;
+        height: auto;
+    }
+}
+
+/*Mobile Query*/
+@media only screen and (max-width:480px) {
+    body,
+    html {
+        height: 100%;
+    }
+    .body-box {
+        font-size: 100%;
+        background-color: #f3f5f4;
+        width: 85%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 20px 5% 20px 5%;
+    }
+
+    .button {
+        display: inline-block;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        border-style: groove;
+        color: #f3f5f4;
+        border-color: #0f4c75;
+        background-color: #0f4c75;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer-out {
+        text-align: right;
+        width: 100%;
+        color: #f3f5f4;
+        margin-top: 10px;
+    }
+
+    #score{
+        width: 75%;
+        font-size: 80%;
+    }
+
+    #about_title, #about_content {
+        font-size: 50%;
+    }
+
+    .about_section {
+        display: block;
+    }
+
+    .about_section div {
+        clear: both;
+    }
+
+    .about_title_group{
+        width: auto;
+        height: min-content;
+    }
+
+    
+
+}

@@ -25,3 +25,19 @@ Spanish Quiz is a responsive Web Application which you can prove your proficienc
 ## Registration
 ![](/quiz-images/registration.png)
 ![](/quiz-images/registration-m.png)
+
+## Quiz
+![](/quiz-images/quiz.png)
+![](/quiz-images/quiz-m.png)
+
+## Result
+![](/quiz-images/quiz.png)
+![](/quiz-images/quiz-m.png)
+
+## Score
+![](/quiz-images/score.png)
+![](/quiz-images/score-m.png)
+
+## Question's Management
+![](/quiz-images/new-question.png)
+![](/quiz-images/new-question-m.png)

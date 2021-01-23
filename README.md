@@ -9,16 +9,14 @@ Spanish Quiz is a responsive Web Application which you can prove your proficienc
 * Score
 * Questions Management
 
-## Frameworks
-* fontawesome (CSS)
-
-## Backend
-* Firebase's Realtime Database
-* Firebase's Storage
+## Built With
+* **CSS Framework:** fontawesome
+* **Cloud Database:** Firebase's Realtime Database
+* **Storage:** Firebase's Storage
 
 ## Screenshots (Desktop and Mobile)
 
-## Index
+** Index **
 ![](/quiz-images/index.png)
 ![](/quiz-images/index-mobile.png)
 

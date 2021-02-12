@@ -1,7 +1,7 @@
 # Spanish Quiz
 This is a college's project for Mobile Browser Application Development course. In this project I demonstrated things I learned through the course. The entire project was built using HTML, CSS and JavaScript.
 
-Spanish Quiz is a responsive Web Application which you can prove your proficiency in Spanish, you must answer 10 questions and then see the results.
+Spanish Quiz is a responsive Web Application, through this app you can prove your proficiency in Spanish., you must answer 10 questions and then see the results.
 
 ## Features
 * Registration
